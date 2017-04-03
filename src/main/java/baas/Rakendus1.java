@@ -38,7 +38,9 @@ public class Rakendus1 {
     }
     TekstiSummeerija ladu = (TekstiSummeerija)httpSession.getValue("hoidla");
     ladu.lisa(lisatekst);
-    return "Kokku: "+ladu.kysi()+"<br>"+"Pikkus: "+ladu.pikkus();
+
+    return "Kokku: "+ladu.kysi()+"<br>"+"Pikkus: "+ladu.pikkus()+"<br>"+"Lisatud "+ladu.lisatud()+" korda"
+    +"<br>"+"Viimati lisasid: "+lisatekst;
   }
 
 
