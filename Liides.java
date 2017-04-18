@@ -1,3 +1,6 @@
 public interface Liides{
-    public void info();
+	double korruta(double a);
+	double jaga(double a);
+    double liida(double a);
+    double lahuta(double a);
 }
