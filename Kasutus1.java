@@ -12,3 +12,14 @@ public class Kasutus1{
 		System.out.println("c: "+ pythagoroseArvutaja.arvutus(a,b));
 	}
 }
+
+/*
+[melissab@greeny t07liides]$ javac *.java
+[melissab@greeny t07liides]$ java Kasutus1
+a:
+6
+b:
+8
+c: 10.0
+
+*/
