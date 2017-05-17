@@ -19,3 +19,5 @@ import java.util.*;
     System.out.println("Risttahuka pindala   on: "+pindalaArvutaja.iseArvutus(a,b,c)+"cm");
  	}
  }
+
+ 
